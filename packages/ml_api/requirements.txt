@@ -6,4 +6,4 @@ marshmallow==2.17.0
 
 # local regression_model package
 # update with your local path
--e "C:\Users\pasca\Desktop\A61-2023\packages\regression_model"
+-e "..\regression_model"
