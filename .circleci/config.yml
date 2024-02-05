@@ -14,7 +14,7 @@ jobs:
             pip install --upgrade pip
             pip install -r packages/regression_model/requirements.txt
             chmod +x ./scripts/fetch_kaggle_dataset.sh
-            ./scripts/fetch_kaggle_dataset.sh
+            ./scripts/fetch_kaggle_dataset12.sh
             py.test -vv packages/regression_model/tests
 
 workflows:
